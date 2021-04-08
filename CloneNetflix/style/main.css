@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "Fira Code Nerd Font";
+  font-style: normal;
+  font-weight: 200;
+  src: url('https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/FiraCode/Light/complete/Fura%20Code%20Light%20Nerd%20Font%20Complete.ttf') format('truetype');
+  font-variant-ligatures: none;
+}
+
+@font-face {
+  font-family: "Fira Code Nerd Font";
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/FiraCode/Retina/complete/Fura%20Code%20Retina%20Nerd%20Font%20Complete.ttf') format('truetype');
+  font-variant-ligatures: none;
+}
+
+@font-face {
+  font-family: "Fira Code Nerd Font";
+  font-weight: 600;
+  src: url('https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/FiraCode/Medium/complete/Fura%20Code%20Medium%20Nerd%20Font%20Complete.ttf') format('truetype');
+  font-variant-ligatures: none;
+}
+
+@font-face {
+  font-family: "Fira Code Nerd Font";
+  font-weight: 800;
+  src: url('https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/FiraCode/Bold/complete/Fura%20Code%20Bold%20Nerd%20Font%20Complete.ttf') format('truetype');
+  font-variant-ligatures: none;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  src: url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+  font-variant-ligatures: none;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 400;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+:root {
+  --RoxoDracula: #BD93F9;
+  --PretaDracula: #282A36;
+  --PinkDracula: #D863BB;
+  --PeleDracula: #EDEDED;
+  --AmareloDracula:#F9D368;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body {
+  color: var(--PeleDracula);
+  background-color: var(--PretaDracula);
+  font-family: 'Fira Code Nerd Font', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  color: var(--RoxoDracula);
+  font-family: 'Fira Code Nerd Font', 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+header .logo:hover{
+  color:var(--PeleDracula);
+}
+
+
+
+header nav a {
+  color: var(--PeleDracula);
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  margin-left: 20px;
+  margin-right: 10px;
+  transition: all .3s linear;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: var(--RoxoDracula);
+  border-bottom: 2px solid;
+}
+
+/*filme principal*/
+
+.filme-principal {
+  font-size: 14px;
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../img/Demon-Slayer-capa-890x466.jpg);
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  font-family: 'Netflix Sans','Times New Roman', Times, serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 400;
+  color:#fff;
+  
+}
+
+.titulo {
+  font-family: 'Fira Code Nerd Font', 'Times New Roman', Times, serif;
+  margin-top: 15%;
+  font-size: 50px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.botao {
+  margin-top: 40px;
+  transition: all .3s ease-in-out;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    background: #50fc7b;
+    border-radius: 4px;
+    text-align: center;
+    color: #000;
+    font-weight: 400;
+    padding: 10px 18px;
+    font-size: 18px;
+    border: 0;
+}
+
+.botao:hover {
+  background: rgba(80, 252, 123,.8);
+  color: #000;
+  ;
+}
+
+.botao i {
+  margin-right: 10px;
+}
+
+.filme-principal .container {
+  width: 70%;
+}
+
+/* imagens */
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.botoes {
+  display: flex;
+}
+
+nav {
+  margin-right: 20px;
+}
+
+.carrosel-filmes {
+  margin-top: 5px;
+}
+
+span {
+  color: var(--PinkDracula);
+}
