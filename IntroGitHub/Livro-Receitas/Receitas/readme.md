@@ -29,6 +29,12 @@
 
 - [x] git config --global user.name NinjaAzul
 
+# Comandos GIT
+
+- [x] Git Init 
+- [x] Git add .
+- [x] Git Commit -m "inicial Commit"
+
 
 
  # Receita Para treinar Git
