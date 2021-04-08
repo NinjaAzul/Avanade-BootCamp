@@ -6,4 +6,7 @@
 
 -[x] Modificado o tema para algo semelhante ao draculaTheme .
 
-/public/Clone-Netflix.gif
+<h1 align="center">
+  <img src=Avanade-BootCamp/public/Clone-Netflix.gif />
+</h1>
+
