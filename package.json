@@ -2,5 +2,15 @@
   "name": "bootcamp-avanade",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "ng": "ng"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "sinon": "^10.0.0"
+  },
+  "devDependencies": {}
 }
